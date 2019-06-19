@@ -36,7 +36,7 @@ def send_message(message):
 	bot.send_message(message.chat.id, f"Я напомню, (если вспомню)")
 	
 
-	times = [11, 15, 19,3]
+	times = [11, 15, 19]
 	mins = [15]
 
 	while True:
