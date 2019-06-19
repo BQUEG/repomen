@@ -26,9 +26,9 @@ f = open('poslov_dtb2.txt', 'r')
 for row in f.readlines():
 	#Data = row.split()
 	temp.append(row)
-print(random.choice(temp))
+#print(random.choice(temp))
 
-print(f"===== {fmt}")
+
 
 @bot.message_handler(commands=['start'])
 def send_message(message):
@@ -36,7 +36,7 @@ def send_message(message):
 	bot.send_message(message.chat.id, f"Я напомню, (если вспомню)")
 	
 
-	times = [11, 15, 19]
+	times = [11, 15, 19,3]
 	mins = [15]
 
 	while True:
